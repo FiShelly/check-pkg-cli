@@ -14,7 +14,7 @@ $ npm install -g check-pkg-cli
 
 or
 
-$ yarnn global add check-pkg-cli
+$ yarn global add check-pkg-cli
 ```
 
 with 1 commands

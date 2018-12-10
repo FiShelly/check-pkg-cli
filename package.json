@@ -1,6 +1,6 @@
 {
   "name": "check-pkg-cli",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "a command whick to show some innfomation in package.json",
   "main": "bin/check-pkg",
   "scripts": {
@@ -29,14 +29,9 @@
   "homepage": "https://github.com/fishelly/check-pkg-cli#readme",
   "dependencies": {
     "colors": "^1.3.2",
-    "commander": "^2.15.1",
-    "mkdirp": "^0.5.1",
-    "sorted-object": "^2.0.1"
+    "commander": "^2.15.1"
   },
   "devDependencies": {
-    "mocha": "^5.1.0",
-    "rimraf": "^2.6.2",
-    "supertest": "^1.0.1"
   },
   "engines": {
     "node": ">= 4.0"

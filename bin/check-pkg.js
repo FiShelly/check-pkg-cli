@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const program = require('commander');
-const mkdirp = require('mkdirp');
 const fs = require('fs');
 const path = require('path');
 const colors = require('colors');
