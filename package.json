@@ -1,0 +1,44 @@
+{
+  "name": "check-pkg-cli",
+  "version": "1.0.0",
+  "description": "a command whick to show some innfomation in package.json",
+  "main": "bin/check-pkg",
+  "scripts": {
+    "start": "npm publish ."
+  },
+  "preferGlobal": true,
+  "bin": {
+    "check-pkg": "./bin/check-pkg.js"
+  },
+  "keywords": [
+    "check package.json",
+    "package.json",
+    "check the key",
+    "check the key for package.json",
+    "the key for package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fishelly/check-pkg-cli.git"
+  },
+  "author": "Fishelly.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fishelly/check-pkg-cli/issues"
+  },
+  "homepage": "https://github.com/fishelly/check-pkg-cli#readme",
+  "dependencies": {
+    "colors": "^1.3.2",
+    "commander": "^2.15.1",
+    "mkdirp": "^0.5.1",
+    "sorted-object": "^2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.0",
+    "rimraf": "^2.6.2",
+    "supertest": "^1.0.1"
+  },
+  "engines": {
+    "node": ">= 4.0"
+  }
+}
